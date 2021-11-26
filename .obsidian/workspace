@@ -1,72 +1,98 @@
 {
   "main": {
-    "id": "6fd5ddfadd16b3e8",
+    "id": "a6e32c45e943b31f",
     "type": "split",
     "children": [
       {
-        "id": "25410ccdd840ba83",
+        "id": "e4879b805c452f82",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "_templates/post.md",
+            "mode": "source"
+          }
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "e5e8ad7b17689e91",
-    "type": "mobile-drawer",
+    "id": "1a0c38dc575ffdd7",
+    "type": "split",
     "children": [
       {
-        "id": "14466827cb56e521",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "4f91af46756110dc",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
+        "id": "dfe2c83a0870d375",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2581fad0455201e5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "d068329cb9894a2d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300
   },
   "right": {
-    "id": "0c7ce0fb3a91bf6e",
-    "type": "mobile-drawer",
+    "id": "c644eaa4435abbf2",
+    "type": "split",
     "children": [
       {
-        "id": "f6faca57066e0cfe",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
+        "id": "fbe5d507a191b86b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2ed9e4e0a74c2d78",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_templates/post.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
           }
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
   },
-  "active": "25410ccdd840ba83",
-  "lastOpenFiles": []
+  "active": "e4879b805c452f82",
+  "lastOpenFiles": [
+    "_templates/post.md",
+    "_drafts/2021-11-24-ruby.md",
+    "_drafts/jekyll+obsidian.md",
+    "_drafts/2021-11-24-Python.md",
+    "_posts/code/2021-11-15-cheatsheet.md",
+    "Untitled.md"
+  ]
 }

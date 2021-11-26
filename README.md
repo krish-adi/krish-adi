@@ -1,18 +1,24 @@
-# Blog theme for Jekyll: jekyll-book
+# krishadi.com 
 
-## GitBook-inspired theme
+## This repository stores the build files for krishadi.com, my personal blog. 
 
-This repository contains the files for a **blog theme** for Jekyll. It has been inspired by the styling the functionalities of the GitBook legacy version. 
+The theme [jekyll-book](https://github.com/krish-adi/jekyll-book) is used here.
 
-Live demo of the theme [**here**](https://krishadi.com).
+## w/ Obsidian
+
+I have set this up to se with [obsidian](obsidian.md). It uses the templater community plugin, and the templates are located inside `_templates`.
+
+## Working on posts
+
+- markdown cheatsheet
+- Python setup and environments
+- vue-js build commands
+- ruby setup and environments
+- greppo demo app
 
 ## Usage
 
-1. Clone the repo.
-
-2. Add your posts within the folder `_posts`. Use the folder structure based on the category of the post.
-
-3. Add the mandatory index file `0000-01-01-index.md` inside the category folder within posts.
+Posts are within the folder `_posts`. Use the folder structure based on the category of the post. The mandatory index file `0000-01-01-index.md` inside the category folder within posts.
 
    `_posts/:category/0000-01-01-index.md`
 
@@ -28,14 +34,5 @@ Live demo of the theme [**here**](https://krishadi.com).
    ---
 
    ```
-
-4. Setup the config file `_config.yml` with the desired variable values. 
-
-5. Install the dependencies of the theme by running `bundle install` .
    
-6. Build the blog and serve it by running `bundle exec jekyll serve` .
-
-## TODO
-
-- Syntax code highlighting fix for dark-mode.
-- Add top margin for reference/backlinks that is placed at the bottom. 
+> To build the blog and serve it locally, run `bundle exec jekyll serve` .
