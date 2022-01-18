@@ -26,26 +26,8 @@ $h3-weight: 500;
 $h4-weight: 500;
 $h5-weight: 500;
 $h6-weight: 400;
-/* Line widths */
-$line-width: 40rem;
 /* Maximum characters per line */
 $line-height: 1.5;
-$max-width: 88%;
-/* Amount of padding around the text, use 90% for narrower padding */
-$max-col-width: 18em;
-$icon-muted: 0.5;
-$border-width: 1px;
-$border-width-alt: 1px;
-$folding-offset: 16px;
-$nested-padding: 3.5%;
-/* Quotes and transclusions */
-$list-padding: 2em;
-/* List padding */
-$radius-s: 2px;
-$radius-m: 5px;
-$radius-l: 10px;
-$input-height: 32px;
-$header-height: 40px;
 
 .markdown-section {
     display: block;
@@ -290,7 +272,7 @@ $header-height: 40px;
     }
     .footnotes {
         margin-top: 3em;
-        border-top: 0.5px solid #AAA;
+        border-top: 0.5px solid #aaa;
         padding-top: 1em;
     }
     .footnotes ol::before {
