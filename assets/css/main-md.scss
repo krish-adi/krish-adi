@@ -1,29 +1,20 @@
 ---
 ---
 
-$text: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans,
-    Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-/* Editor font */
-$text-editor: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans,
+/* Normal font */
+$font-normal: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans,
     Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 /* Code font */
 $font-monospace: Menlo, SFMono-Regular, Consolas, "Roboto Mono", monospace;
-/* UI font */
-$font-ui: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans,
-    Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 /* Font sizes */
-$font-normal: 16px;
-$font-small: 13px;
-$font-smaller: 11px;
-$font-smallest: 10px;
-$font-title: 1.1em;
+$font-normal: 15px;
 /* Font weights */
 $normal-weight: 400;
 /* Switch to 300 if you want thinner default text */
 $bold-weight: 600;
 /* Switch to 700 if you want thicker bold text */
 /* Headings */
-$h1: 1.125em;
+$h1: 1.135em;
 $h2: 1.05em;
 $h3: 1em;
 $h4: 0.9em;
@@ -35,12 +26,6 @@ $h3-weight: 500;
 $h4-weight: 500;
 $h5-weight: 500;
 $h6-weight: 400;
-$h1-variant: normal;
-$h2-variant: normal;
-$h3-variant: normal;
-$h4-variant: small-caps;
-$h5-variant: small-caps;
-$h6-variant: small-caps;
 /* Line widths */
 $line-width: 40rem;
 /* Maximum characters per line */
@@ -61,39 +46,27 @@ $radius-m: 5px;
 $radius-l: 10px;
 $input-height: 32px;
 $header-height: 40px;
-$red: #d04255;
-$yellow: #e5b567;
-$green: #a8c373;
-$orange: #e57e43;
-$purple: #9e86c8;
-$pink: #b05279;
-$cyan: #73bbb2;
-$blue: #6c99bb;
 
 .markdown-section {
     display: block;
     word-wrap: break-word;
     overflow: hidden;
     color: #333;
-    line-height: 1.7;
+    font-family: $font-normal !important;
+    line-height: $line-height !important;
+    font-size: $font-normal !important;
+    font-weight: $normal-weight !important;
     text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
 }
-.markdown-section * {
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    font-size: inherit;
-}
-.markdown-section > :first-child {
-    margin-top: 0 !important;
-}
-.markdown-section > :last-child {
-    margin-bottom: 0 !important;
-}
 
 .markdown-section {
+    * {
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
     blockquote,
     code,
     figure,
@@ -120,7 +93,7 @@ $blue: #6c99bb;
     }
     b,
     strong {
-        font-weight: 700;
+        font-weight: $bold-weight;
     }
     em {
         font-style: italic;
@@ -173,30 +146,36 @@ $blue: #6c99bb;
     h6 {
         margin-top: 1.275em;
         margin-bottom: 0.85em;
-        font-weight: 700;
     }
     h1 {
-        font-size: 2em;
+        font-size: $h1;
+        font-weight: $h1-weight;
     }
     h2 {
-        font-size: 1.75em;
+        font-size: $h2;
+        font-weight: $h2-weight;
     }
     h3 {
-        font-size: 1.5em;
+        font-size: $h3;
+        font-weight: $h3-weight;
     }
     h4 {
-        font-size: 1.25em;
+        font-size: $h4;
+        font-weight: $h4-weight;
     }
     h5 {
-        font-size: 1em;
+        font-size: $h5;
+        font-weight: $h5-weight;
     }
     h6 {
-        font-size: 1em;
+        font-size: $h6;
         color: #777;
+        font-weight: $h6-weight;
     }
     code,
     pre {
-        font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+        // font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+        font-family: $font-monospace !important;
         direction: ltr;
         margin: 0;
         padding: 0;
@@ -308,5 +287,26 @@ $blue: #6c99bb;
     .glossary-term {
         cursor: help;
         text-decoration: underline;
+    }
+    .footnotes {
+        margin-top: 3em;
+        border-top: 0.5px solid #AAA;
+        padding-top: 1em;
+    }
+    .footnotes ol::before {
+        font-weight: bold;
+        content: "Reference ";
+    }
+    .footnotes li {
+        margin-top: 0.5em;
+    }
+}
+
+.markdown-section > {
+    :first-child {
+        margin-top: 0 !important;
+    }
+    :last-child {
+        margin-bottom: 0 !important;
     }
 }
