@@ -1,0 +1,312 @@
+---
+---
+
+$text: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans,
+    Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+/* Editor font */
+$text-editor: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans,
+    Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+/* Code font */
+$font-monospace: Menlo, SFMono-Regular, Consolas, "Roboto Mono", monospace;
+/* UI font */
+$font-ui: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans,
+    Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+/* Font sizes */
+$font-normal: 16px;
+$font-small: 13px;
+$font-smaller: 11px;
+$font-smallest: 10px;
+$font-title: 1.1em;
+/* Font weights */
+$normal-weight: 400;
+/* Switch to 300 if you want thinner default text */
+$bold-weight: 600;
+/* Switch to 700 if you want thicker bold text */
+/* Headings */
+$h1: 1.125em;
+$h2: 1.05em;
+$h3: 1em;
+$h4: 0.9em;
+$h5: 0.85em;
+$h6: 0.85em;
+$h1-weight: 600;
+$h2-weight: 600;
+$h3-weight: 500;
+$h4-weight: 500;
+$h5-weight: 500;
+$h6-weight: 400;
+$h1-variant: normal;
+$h2-variant: normal;
+$h3-variant: normal;
+$h4-variant: small-caps;
+$h5-variant: small-caps;
+$h6-variant: small-caps;
+/* Line widths */
+$line-width: 40rem;
+/* Maximum characters per line */
+$line-height: 1.5;
+$max-width: 88%;
+/* Amount of padding around the text, use 90% for narrower padding */
+$max-col-width: 18em;
+$icon-muted: 0.5;
+$border-width: 1px;
+$border-width-alt: 1px;
+$folding-offset: 16px;
+$nested-padding: 3.5%;
+/* Quotes and transclusions */
+$list-padding: 2em;
+/* List padding */
+$radius-s: 2px;
+$radius-m: 5px;
+$radius-l: 10px;
+$input-height: 32px;
+$header-height: 40px;
+$red: #d04255;
+$yellow: #e5b567;
+$green: #a8c373;
+$orange: #e57e43;
+$purple: #9e86c8;
+$pink: #b05279;
+$cyan: #73bbb2;
+$blue: #6c99bb;
+
+.markdown-section {
+    display: block;
+    word-wrap: break-word;
+    overflow: hidden;
+    color: #333;
+    line-height: 1.7;
+    text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+}
+.markdown-section * {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-size: inherit;
+}
+.markdown-section > :first-child {
+    margin-top: 0 !important;
+}
+.markdown-section > :last-child {
+    margin-bottom: 0 !important;
+}
+
+.markdown-section {
+    blockquote,
+    code,
+    figure,
+    img,
+    pre,
+    table,
+    tr {
+        page-break-inside: avoid;
+    }
+    h2,
+    h3,
+    h4,
+    h5,
+    p {
+        orphans: 3;
+        widows: 3;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        page-break-after: avoid;
+    }
+    b,
+    strong {
+        font-weight: 700;
+    }
+    em {
+        font-style: italic;
+    }
+    blockquote,
+    dl,
+    ol,
+    p,
+    table,
+    ul {
+        margin-top: 0;
+        margin-bottom: 0.85em;
+    }
+    a {
+        color: #4183c4;
+        text-decoration: none;
+        background: 0 0;
+    }
+    a:active,
+    a:focus,
+    a:hover {
+        outline: 0;
+        text-decoration: underline;
+    }
+    img {
+        border: 0;
+        max-width: 100%;
+    }
+    hr {
+        height: 4px;
+        padding: 0;
+        margin: 1.7em 0;
+        overflow: hidden;
+        background-color: #e7e7e7;
+        border: none;
+    }
+    hr:after,
+    hr:before {
+        display: table;
+        content: " ";
+    }
+    hr:after {
+        clear: both;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-top: 1.275em;
+        margin-bottom: 0.85em;
+        font-weight: 700;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.75em;
+    }
+    h3 {
+        font-size: 1.5em;
+    }
+    h4 {
+        font-size: 1.25em;
+    }
+    h5 {
+        font-size: 1em;
+    }
+    h6 {
+        font-size: 1em;
+        color: #777;
+    }
+    code,
+    pre {
+        font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+        direction: ltr;
+        margin: 0;
+        padding: 0;
+        border: none;
+        color: inherit;
+    }
+    pre {
+        overflow: auto;
+        word-wrap: normal;
+        margin: 0;
+        padding: 0.85em 1em;
+        margin-bottom: 1.275em;
+        background: #f7f7f7;
+    }
+    pre > code {
+        display: inline;
+        max-width: initial;
+        padding: 0;
+        margin: 0;
+        overflow: initial;
+        line-height: inherit;
+        font-size: 0.85em;
+        white-space: pre;
+        background: 0 0;
+    }
+    pre > code:after,
+    pre > code:before {
+        content: normal;
+    }
+    code {
+        padding: 0.2em;
+        margin: 0;
+        font-size: 0.85em;
+        background-color: #f7f7f7;
+    }
+    code:after,
+    code:before {
+        letter-spacing: -0.2em;
+        content: "\00a0";
+    }
+    table {
+        display: table;
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+        overflow: auto;
+    }
+    table td,
+    table th {
+        padding: 6px 13px;
+        border: 1px solid #ddd;
+    }
+    table tr {
+        background-color: #fff;
+        border-top: 1px solid #ccc;
+    }
+    table tr:nth-child(2n) {
+        background-color: #f8f8f8;
+    }
+    table th {
+        font-weight: 700;
+    }
+    ol,
+    ul {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 0.85em;
+        padding-left: 2em;
+    }
+    ol ol,
+    ol ul,
+    ul ol,
+    ul ul {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    ol ol {
+        list-style-type: lower-roman;
+    }
+    blockquote {
+        margin: 0;
+        margin-bottom: 0.85em;
+        padding: 0 15px;
+        color: #858585;
+        border-left: 4px solid #e5e5e5;
+    }
+    blockquote:first-child {
+        margin-top: 0;
+    }
+    blockquote:last-child {
+        margin-bottom: 0;
+    }
+    dl {
+        padding: 0;
+    }
+    dl dt {
+        padding: 0;
+        margin-top: 0.85em;
+        font-style: italic;
+        font-weight: 700;
+    }
+    dl dd {
+        padding: 0 0.85em;
+        margin-bottom: 0.85em;
+    }
+    dd {
+        margin-left: 0;
+    }
+    .glossary-term {
+        cursor: help;
+        text-decoration: underline;
+    }
+}
