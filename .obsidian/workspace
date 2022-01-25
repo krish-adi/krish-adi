@@ -9,9 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/code/0000-01-01-index.md",
-            "mode": "source",
-            "source": false
+            "file": "_drafts/Focus.md",
+            "mode": "source"
           }
         }
       }
@@ -19,76 +18,62 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "1a0c38dc575ffdd7",
-    "type": "split",
+    "id": "9639e943eba9c3b9",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "dfe2c83a0870d375",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "2581fad0455201e5",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "d068329cb9894a2d",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
+        "id": "e54473a3ec75d620",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "c29b00f73e53e88e",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300
+    "currentTab": 0
   },
   "right": {
-    "id": "c644eaa4435abbf2",
-    "type": "split",
+    "id": "d401395df0f9eef5",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "fbe5d507a191b86b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "2ed9e4e0a74c2d78",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "_posts/code/0000-01-01-index.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
+        "id": "4e2e2b3ae6591555",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "_drafts/Focus.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "currentTab": 0
   },
   "active": "a9348ed6ced08992",
   "lastOpenFiles": [
+    "_drafts/Focus.md",
     "_posts/code/0000-01-01-index.md",
     "assets/favicon.png",
     "_posts/code/2021-11-15-cheatsheet.md",
@@ -97,7 +82,6 @@
     "_drafts/jekyll+obsidian.md",
     "_drafts/2021-11-24-Python.md",
     "_templates/post.md",
-    "building-a-startup/step-1.md",
-    "_drafts/2021-11-24-ruby.md"
+    "building-a-startup/step-1.md"
   ]
 }

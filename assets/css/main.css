@@ -128,8 +128,8 @@ body {
     overflow-y: auto;
     width: var(--summary-width);
     color: #364149;
-    background: #fafafa;
-    border-right: 1px solid rgba(0, 0, 0, 0.07);
+    /* background: #fafafa; */
+    /* border-right: 1px solid rgba(0, 0, 0, 0.07); */
     -webkit-transition: left 250ms ease;
     -moz-transition: left 250ms ease;
     -o-transition: left 250ms ease;
@@ -172,7 +172,7 @@ body {
     height: 1px;
     margin: 7px 0;
     overflow: hidden;
-    background: rgba(0, 0, 0, 0.07);
+    /* background: rgba(0, 0, 0, 0.07); */
 }
 .book-summary ul.summary li i.fa-check {
     display: none;
@@ -208,6 +208,7 @@ body {
 }
 .book-summary ul.summary li a:hover {
     text-decoration: none;
+    background: #ddd;
 }
 .book-summary ul.summary li a:focus {
     outline: 0;

@@ -1,13 +1,9 @@
 ---
 ---
 
-/* Normal font */
-$font-normal: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans,
-    Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
 /* Code font */
 $font-monospace: Menlo, SFMono-Regular, Consolas, "Roboto Mono", monospace;
-/* Font sizes */
-$font-normal: 15px;
 /* Font weights */
 $normal-weight: 400;
 /* Switch to 300 if you want thinner default text */
@@ -34,9 +30,7 @@ $line-height: 1.5;
     word-wrap: break-word;
     overflow: hidden;
     color: #333;
-    font-family: $font-normal !important;
-    line-height: $line-height !important;
-    font-size: $font-normal !important;
+    line-height: $line-height !important;    
     font-weight: $normal-weight !important;
     text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
