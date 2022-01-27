@@ -2,5 +2,7 @@
   "promptDelete": false,
   "legacyEditor": false,
   "livePreview": true,
-  "showUnsupportedFiles": false
+  "showUnsupportedFiles": false,
+  "spellcheck": true,
+  "showFrontmatter": false
 }
