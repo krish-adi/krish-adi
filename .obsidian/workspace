@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/zettelkasten/2021-11-24-python.md",
+            "file": "_drafts/zettelkasten/2021-12-09-blogs-to-follow.md",
             "mode": "source",
             "source": false
           }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "2bea9a2ce388b06d",
+    "id": "6d586197c9dfb6ac",
     "type": "split",
     "children": [
       {
-        "id": "911c049033203014",
+        "id": "3c9acff1e3bfb7e4",
         "type": "tabs",
         "children": [
           {
-            "id": "ca3a276bfa944b0b",
+            "id": "a09874c818f5e18d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "e242768248765c3f",
+            "id": "8add8ffc13aff4d3",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -56,20 +56,20 @@
     "width": 300
   },
   "right": {
-    "id": "17b71dfcd52b3493",
+    "id": "8381dfcfea76e4f8",
     "type": "split",
     "children": [
       {
-        "id": "56662956f314d2e6",
+        "id": "27c5dfc749357545",
         "type": "tabs",
         "children": [
           {
-            "id": "37b7a3fc512eb8b3",
+            "id": "1fd096926234c8fb",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/zettelkasten/2021-11-24-python.md",
+                "file": "_drafts/zettelkasten/2021-12-09-blogs-to-follow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "bfcd5707c9afd44d",
   "lastOpenFiles": [
+    "_drafts/zettelkasten/2021-12-09-blogs-to-follow.md",
+    "_drafts/essay/2022-01-27-shit.md",
+    "_drafts/essay/2022-01-27-transition.md",
+    "_drafts/essay/rheology.png",
     "_posts/zettelkasten/2021-11-24-python.md",
+    "_drafts/zettelkasten/2022-01-27-python-pep.md",
     "_drafts/2021-12-09-blogs-to-follow.md",
     "_templates/post.md",
     "_drafts/essay/2022-01-27-ppp.md",
-    "_drafts/essay/0000-01-01-index.md",
-    "_drafts/essay/2022-01-27-shit.md",
-    "_drafts/zettelkasten/2022-01-27-tailwindcss.md",
-    "_drafts/zettelkasten/2022-01-27-python-pep.md",
-    "_drafts/zettelkasten/2022-01-27-python-docstrings.md",
-    "_drafts/zettelkasten/2022-01-27-vuejs-vuex.md"
+    "_drafts/essay/0000-01-01-index.md"
   ]
 }

@@ -4,5 +4,6 @@
   "livePreview": true,
   "showUnsupportedFiles": false,
   "spellcheck": true,
-  "showFrontmatter": false
+  "showFrontmatter": false,
+  "vimMode": false
 }
