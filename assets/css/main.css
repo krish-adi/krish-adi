@@ -33,7 +33,7 @@ html {
 }
 body {
     text-rendering: optimizeLegibility;
-    font-smoothing: antialiased;    
+    font-smoothing: antialiased;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     letter-spacing: 0.2px;
@@ -63,7 +63,8 @@ body {
     bottom: 0;
     overflow-y: auto;
 }
-.body-header {
+.body-navbar {
+    top: 0;
     height: 50px;
     padding: 0 20px;
     font-size: 0.85em;
@@ -75,7 +76,7 @@ body {
     text-overflow: ellipsis;
     text-transform: uppercase;
 }
-.body-header .btn {
+.body-navbar .btn {
     cursor: pointer;
     height: 50px;
     padding: 0 15px;
@@ -87,15 +88,16 @@ body {
     font-size: 16px;
     text-decoration: none;
 }
-.body-header .btn:hover {
+.body-navbar .btn:hover {
     color: #333333;
     background: 0 0;
 }
-.body-header .btn svg {
+.body-navbar .btn svg {
     height: 14px;
+    width: 14px;
     fill: #bbbbbb;
 }
-.body-header .btn svg:hover {
+.body-navbar .btn svg:hover {
     fill: #333333;
 }
 .page-wrapper {
@@ -144,20 +146,6 @@ body {
     -moz-transition: top 0.5s ease;
     -o-transition: top 0.5s ease;
     transition: top 0.5s ease;
-}
-.book-summary ul.summary .close{
-    position: absolute;
-    top: 7px;
-    right: 7px;
-    padding: 2px 5px;   
-    font-size: large;
-    background-color: #eeeeee;
-    border-radius: 2px;
-}
-@media (min-width: 769px) {
-    .book-summary ul.summary .close{
-        display: none;
-    }
 }
 .book-summary ul.summary li {
     list-style: none;
@@ -241,4 +229,45 @@ body {
 }
 .display-none {
     display: none;
+}
+
+.book-settings {
+    height: 50px;
+    font-size: 0.85em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.book-settings {
+    position: absolute !important;
+    bottom: 0;
+}
+
+.book-settings svg {
+    margin: 0 !important;
+    height: 14px;
+    width: 14px;
+    fill: #364149;
+}
+
+.book-settings .chapter {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sidebar-toggle {
+    z-index: 10;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    padding: 5px 3px 7px 3px;
+    font-size: medium;
+    font-weight: 500;
+    background-color: #999999;
+    color: #ffffff;
+    border-radius: 0 4px 4px 0;
+}
+
+.sidebar-toggle:hover {
+    background-color: #e8e8e8;
+    color: #b7b7b7;
 }

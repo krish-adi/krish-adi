@@ -1,5 +1,8 @@
+<a onclick="toggleSidebar()" class="sidebar-toggle">    
+    &#62;
+<a>
 <div class="body-inner">
-    {%- include header.html -%}
+    {%- include navbar.html -%}
     <div class="page-wrapper">
         <div class="page-inner">
             <section class="normal markdown-section">{{ content }}</section>
@@ -14,17 +17,29 @@
             >
                 <colgroup>
                     <col span="1" style="width: 8em" />
-                    <col span="1"  />
+                    <col span="1" />
                 </colgroup>
                 <tr>
                     <td>Last modified</td>
-                    <td style="padding: 0.25em 0.5em; background-color: #eeeeee; border-radius: 5em;">
+                    <td
+                        style="
+                            padding: 0.25em 0.5em;
+                            background-color: #eeeeee;
+                            border-radius: 5em;
+                        "
+                    >
                         {{ page.modified | date_to_string }}
                     </td>
                 </tr>
                 <tr>
                     <td>First published</td>
-                    <td style="padding: 0.25em 0.5em; background-color: #eeeeee; border-radius: 5em;">
+                    <td
+                        style="
+                            padding: 0.25em 0.5em;
+                            background-color: #eeeeee;
+                            border-radius: 5em;
+                        "
+                    >
                         {{ page.date | date_to_string}}
                     </td>
                 </tr>

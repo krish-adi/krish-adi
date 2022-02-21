@@ -1,6 +1,5 @@
 <div class="book-summary">
     <ul class="summary">
-        <div onclick="toggleSidebar()" class="close"> &#215; </div>
         <div style="height: 3em"></div>
         <li class="divider"></li>
         <li class="chapter">
@@ -20,5 +19,33 @@
         {% endfor %}
         <li class="divider"></li>
         {%- include social.html -%}
+    </ul>
+
+    <ul class="summary book-settings">
+        <li class="chapter">
+            <a onclick="toggleDarkmode()">
+                <svg>
+                    <use xlink:href="#colormode" />
+                </svg>
+            </a>
+            <a onclick="toggleFontType()">
+                <svg id="serif-icon">
+                    <use xlink:href="#serifmode" />
+                </svg>
+                <svg id="sans-icon">
+                    <use xlink:href="#sansmode" />
+                </svg>
+            </a>
+            <a onclick="decFontSize()">
+                <svg>
+                    <use xlink:href="#fontdec" />
+                </svg>
+            </a>
+            <a onclick="incFontSize()">
+                <svg>
+                    <use xlink:href="#fontinc" />
+                </svg>
+            </a>
+        </li>
     </ul>
 </div>
