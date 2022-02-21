@@ -1,8 +1,8 @@
 <div class="body-navbar">
     <div class="home-menu-sm">
         <div class="dropdown">
-            <a class="btn toggle-dropdown" onclick="toggleHomeDropdown()">
-                <svg>
+            <a class="btn toggle-dropdown blue-line" onclick="toggleHomeDropdown()">
+                <svg style="margin: 0 2px;">
                     <use xlink:href="#hamburger" />
                 </svg>
             </a>
@@ -43,16 +43,16 @@
             {%- assign social = site.social_links -%} {% if social %} {% if
             social.github %}
 
-            <a class="btn" href="https://github.com/{{ social.github }}">
-                <svg>
+            <a class="btn blue-line" href="https://github.com/{{ social.github }}">
+                <svg style="margin: 0 -1px 0 2px;">
                     <use xlink:href="#github" />
                 </svg>
             </a>
 
             {% endif %} {% if social.twitter %}
 
-            <a class="btn" href="https://twitter.com/{{ social.twitter }}">
-                <svg>
+            <a class="btn blue-line" href="https://twitter.com/{{ social.twitter }}">
+                <svg style="margin: 0 2px;">
                     <use xlink:href="#twitter" />
                 </svg>
             </a>
@@ -61,8 +61,8 @@
         </div>
 
         <div class="dropdown">
-            <a class="btn toggle-dropdown" onclick="toggleSettingsDropdown()">
-                <svg>
+            <a class="btn toggle-dropdown blue-line" onclick="toggleSettingsDropdown()">
+                <svg style="margin: 0 2px;">
                     <use xlink:href="#settings" />
                 </svg>
             </a>

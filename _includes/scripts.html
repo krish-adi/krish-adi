@@ -8,6 +8,10 @@
     function toggleSettingsDropdown() {
         document.getElementById("settings-dropdown").classList.toggle("open");        
     }
+    function hideDropdown() {
+        document.getElementById("home-dropdown").classList.remove("open");        
+        document.getElementById("settings-dropdown").classList.remove("open");        
+    }
     // Light/Dark mode implementation
     if (localStorage.themeMode) {
         if (localStorage.themeMode == "dark") {

@@ -100,14 +100,14 @@ body {
     font-weight: 500;
     text-decoration: none;
 }
-.body-navbar .btn:hover {
-    color: #333333;
+/* .body-navbar .btn:hover {
+    color: #6b808f;
     background: 0 0;
-}
+} */
 .body-navbar .btn svg {
     height: 14px;
     width: 14px;
-    fill: #bbbbbb;
+    fill: #666666;
 }
 .body-navbar .btn:hover svg {
     fill: #333333;
@@ -131,13 +131,13 @@ body {
     margin: 2px 0 0;
     list-style: none;
     font-size: 14px;
-    background-color: #fafafa;
+    background-color: #ffffff;
     border: 1px solid rgba(0, 0, 0, 0.07);
     border-radius: 1px;
     -webkit-box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
     box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
     background-clip: padding-box;
-    text-transform: none;
+    text-transform: capitalize;
 }
 .menu-right {
     right: 0;
@@ -190,7 +190,6 @@ body {
 .dropdown-menu .button {
     border: 0;
     background-color: transparent;
-    color: #a6a6a6;
     width: 100%;
     text-align: center;
     float: left;
@@ -206,10 +205,6 @@ body {
 .blue-line {
     color: #364149;
     border-bottom: 2px solid #00f;
-}
-
-.blue-line:hover {
-    background-color: #eee !important;
 }
 
 @media (min-width: 640px) {
