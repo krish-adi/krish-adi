@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_drafts/zettelkasten/2021-12-09-blogs-to-follow.md",
+            "file": "_drafts/blog/2022-01-27-shit.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/zettelkasten/2021-12-09-blogs-to-follow.md",
+                "file": "_drafts/blog/2022-01-27-shit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "bfcd5707c9afd44d",
   "lastOpenFiles": [
-    "_drafts/zettelkasten/2021-12-09-blogs-to-follow.md",
-    "_drafts/essay/2022-01-27-shit.md",
-    "_drafts/essay/2022-01-27-transition.md",
-    "_drafts/essay/rheology.png",
-    "_posts/zettelkasten/2021-11-24-python.md",
-    "_drafts/zettelkasten/2022-01-27-python-pep.md",
-    "_drafts/2021-12-09-blogs-to-follow.md",
-    "_templates/post.md",
+    "_drafts/blog/2022-01-27-shit.md",
+    "_drafts/blog/2022-01-27-transition.md",
+    "_drafts/blog/0000-01-01-index.md",
+    "_drafts/essay/0000-01-01-index.md",
     "_drafts/essay/2022-01-27-ppp.md",
-    "_drafts/essay/0000-01-01-index.md"
+    "_posts/zettelkasten/2022-01-26-rheology.md",
+    "_posts/zettelkasten/2021-11-24-python.md",
+    "_posts/zettelkasten/0000-01-01-index.md",
+    "assets/media/rheology.png",
+    "_drafts/zettelkasten/2022-01-27-vuejs-vuex.md"
   ]
 }

@@ -214,4 +214,20 @@ body {
     .home-menu-md {
         display: block;
     }
+    .width-25 {
+        width: 25%;
+    }
+    .width-50 {
+        width: 50%;
+    }
+    .width-75 {
+        width: 75%;
+    }
+}
+
+.img-caption {
+    text-align: center;
+    margin: auto;
+    width: 85%;
+    font-size: small;
 }
