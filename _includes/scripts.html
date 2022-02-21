@@ -1,17 +1,16 @@
+{%- include symbols.html -%}
 <script>
-    // Sidebar toggle implementation
-    if (localStorage.sidebar) {
-        if (localStorage.sidebar == "close") {
-            document.getElementById("book").classList.toggle("with-summary");
-        }
-    } else {
-        localStorage.sidebar = "open";
+    // Toggle home dropdown    
+    function toggleHomeDropdown() {
+        document.getElementById("home-dropdown").classList.toggle("open");        
     }
-    function toggleSidebar() {
-        document.getElementById("book").classList.toggle("with-summary");
-        localStorage.sidebar == "open"
-            ? (localStorage.sidebar = "close")
-            : (localStorage.sidebar = "open");
+    // Toggle settings dropdown    
+    function toggleSettingsDropdown() {
+        document.getElementById("settings-dropdown").classList.toggle("open");        
+    }
+    function hideDropdown() {
+        document.getElementById("home-dropdown").classList.remove("open");        
+        document.getElementById("settings-dropdown").classList.remove("open");        
     }
     // Light/Dark mode implementation
     if (localStorage.themeMode) {
@@ -26,6 +25,14 @@
         localStorage.themeMode == "light"
             ? (localStorage.themeMode = "dark")
             : (localStorage.themeMode = "light");
+    }
+    function toDarkMode() {
+        document.getElementById("book").classList.add("dark-mode");
+        localStorage.themeMode = "dark";
+    }
+    function toLightMode() {
+        document.getElementById("book").classList.remove("dark-mode");
+        localStorage.themeMode = "light";
     }
     // Sans/Serif toggle implementation
     if (localStorage.fontType) {
@@ -101,14 +108,12 @@
         }
     }
     function incFontSize() {
-        console.log("inc");
         if (localStorage.fontSize < maxFontSize) {
             localStorage.fontSize = Number(localStorage.fontSize) + 1;
             implementFontSize(Number(localStorage.fontSize));
         }
     }
     function decFontSize() {
-        console.log("dec");
         if (localStorage.fontSize > minFontSize) {
             localStorage.fontSize = Number(localStorage.fontSize) - 1;
             implementFontSize(Number(localStorage.fontSize));

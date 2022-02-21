@@ -1,0 +1,105 @@
+<div class="body-navbar">
+    <div class="home-menu-sm">
+        <div class="dropdown">
+            <a class="btn toggle-dropdown blue-line" onclick="toggleHomeDropdown()">
+                <svg style="margin: 0 2px;">
+                    <use xlink:href="#hamburger" />
+                </svg>
+            </a>
+            <div id="home-dropdown" class="dropdown-menu menu-left">
+                <div class="dropdown-caret caret-left">
+                    <span class="caret-outer"></span>
+                    <span class="caret-inner"></span>
+                </div>
+                <div>
+                    <a class="btn button" href="{{site.baseurl}}/index.html">
+                        Home
+                    </a>
+                    {% for category in site.categories %}{% capture
+                    category_name %}{{ category | first }}{% endcapture %}
+                    <a
+                        class="btn button"
+                        href="{{site.baseurl}}/{{ category_name | slugize }}"
+                    >
+                        {{ category_name }}
+                    </a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="home-menu-md">
+        <a class="btn blue-line" href="{{site.baseurl}}/index.html">Home</a>
+
+        {% for category in site.categories %}{% capture category_name %}{{
+        category | first }}{% endcapture %}
+        <a class="btn blue-line" href="{{site.baseurl}}/{{ category_name | slugize }}">
+            {{ category_name }}
+        </a>
+        {% endfor %}
+    </div>
+    <div style="display: flex">
+        <div>
+            {%- assign social = site.social_links -%} {% if social %} {% if
+            social.github %}
+
+            <a class="btn blue-line" href="https://github.com/{{ social.github }}">
+                <svg style="margin: 0 -1px 0 2px;">
+                    <use xlink:href="#github" />
+                </svg>
+            </a>
+
+            {% endif %} {% if social.twitter %}
+
+            <a class="btn blue-line" href="https://twitter.com/{{ social.twitter }}">
+                <svg style="margin: 0 2px;">
+                    <use xlink:href="#twitter" />
+                </svg>
+            </a>
+
+            {% endif %} {% endif %}
+        </div>
+
+        <div class="dropdown">
+            <a class="btn toggle-dropdown blue-line" onclick="toggleSettingsDropdown()">
+                <svg style="margin: 0 2px;">
+                    <use xlink:href="#settings" />
+                </svg>
+            </a>
+            <div id="settings-dropdown" class="dropdown-menu menu-right">
+                <div class="dropdown-caret caret-right">
+                    <span class="caret-outer"></span>
+                    <span class="caret-inner"></span>
+                </div>
+                <div>
+                    <a class="btn button size-3" onclick="decFontSize()"
+                        ><svg>
+                            <use xlink:href="#fontdec" />
+                        </svg>
+                    </a>
+                    <a class="btn button size-3" onclick="toggleFontType()">
+                        <!-- serif mode -->
+                        <svg id="serif-icon">
+                            <use xlink:href="#serifmode" />
+                        </svg>
+                        <!-- sans mode -->
+                        <svg id="sans-icon">
+                            <use xlink:href="#sansmode" />
+                        </svg>
+                    </a>
+                    <a class="btn button size-3" onclick="incFontSize()"
+                        ><svg>
+                            <use xlink:href="#fontinc" />
+                        </svg>
+                    </a>
+                </div>
+                <div style="display: none;">
+                    <a class="btn button size-2" onclick="toLightMode()"
+                        >Light</a
+                    >
+                    <a class="btn button size-2" onclick="toDarkMode()">Dark</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
