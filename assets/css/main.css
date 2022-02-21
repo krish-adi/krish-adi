@@ -259,8 +259,8 @@ body {
     cursor: pointer;
     position: absolute;
     top: 10px;
-    padding: 5px 3px 7px 3px;
-    font-size: medium;
+    padding: 3px 2px 5px 2px;
+    font-size: 14px;
     font-weight: 500;
     background-color: #999999;
     color: #ffffff;
