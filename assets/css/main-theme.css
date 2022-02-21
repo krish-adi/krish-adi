@@ -25,7 +25,7 @@
 }
 
 /* Dark mode theme */
-.dark-mode .dropdown-menu {
+/* .dark-mode .dropdown-menu {
     background-color: #2d3143;
     border-color: #272a3a;
 }
@@ -138,7 +138,7 @@
     border: 1px solid transparent;
 }
 .book.dark-mode .book-summary ul.summary li.divider {
-    /* background: #272a3a; */
+    background: #272a3a;
     box-shadow: none;
 }
 .book.dark-mode .book-summary ul.summary li i.fa-check {
@@ -170,4 +170,4 @@
 }
 .book.dark-mode .body-header .btn svg:hover {
     fill: #dddddd;
-}
+} */
