@@ -4,7 +4,10 @@ layout: default
 {% assign cat = page.category %}
 <h3 id="category" style="text-transform: capitalize;">{{ page.category }}</h3>
 {% for post in site.categories[cat] %}
-{%- if post.title != 'index' -%}
-    <li><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></li>
+{%- if post.title != 'index' -%}    
+    <li class="chapter" style="margin: 8px 0;">
+        <a style="font-weight: 500;" href="{{site.baseurl}}{{post.url}}"> {{ post.title | escape }} </a>
+        <span style="margin-left: 10px;"> {{ post.date | date_to_string}} </span>
+    </li>
 {%- endif -%}
 {% endfor %}

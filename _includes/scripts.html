@@ -1,16 +1,28 @@
 {%- include symbols.html -%}
 <script>
-    // Toggle home dropdown    
+    // Toggle home dropdown
     function toggleHomeDropdown() {
-        document.getElementById("home-dropdown").classList.toggle("open");        
+        document.getElementById("home-dropdown").classList.toggle("open");
     }
-    // Toggle settings dropdown    
+    // Toggle settings dropdown
     function toggleSettingsDropdown() {
-        document.getElementById("settings-dropdown").classList.toggle("open");        
+        document.getElementById("settings-dropdown").classList.toggle("open");
     }
     function hideDropdown() {
-        document.getElementById("home-dropdown").classList.remove("open");        
-        document.getElementById("settings-dropdown").classList.remove("open");        
+        if (
+            document.getElementById("home-dropdown").classList.contains("open")
+        ) {
+            document.getElementById("home-dropdown").classList.remove("open");
+        }
+        if (
+            document
+                .getElementById("settings-dropdown")
+                .classList.contains("open")
+        ) {
+            document
+                .getElementById("settings-dropdown")
+                .classList.remove("open");
+        }
     }
     // Light/Dark mode implementation
     if (localStorage.themeMode) {
@@ -59,16 +71,16 @@
         document.getElementById("book").classList.toggle("font-family-serif");
         if (localStorage.fontType == "sans") {
             localStorage.fontType = "serif";
-            document
-                .getElementById("serif-icon")
-                .classList.add("display-none");
-            document.getElementById("sans-icon").classList.remove("display-none");
-        } else {
-            localStorage.fontType = "sans";
-            document.getElementById("serif-icon").classList.remove("display-none");
+            document.getElementById("serif-icon").classList.add("display-none");
             document
                 .getElementById("sans-icon")
-                .classList.add("display-none");
+                .classList.remove("display-none");
+        } else {
+            localStorage.fontType = "sans";
+            document
+                .getElementById("serif-icon")
+                .classList.remove("display-none");
+            document.getElementById("sans-icon").classList.add("display-none");
         }
     }
     // Inc/Dec font size implementation

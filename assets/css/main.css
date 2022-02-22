@@ -6,6 +6,7 @@
     --page-margin: 0 auto;
     --page-padding: 40px 40px;
     --page-padding-md: 25px;
+    --primary-color: #42B6F3;
 }
 * {
     -webkit-box-sizing: border-box;
@@ -91,7 +92,7 @@ body {
 .body-navbar .btn {
     margin: auto 0;
     cursor: pointer;
-    margin: 0 15px;
+    margin: 0 8px;
     color: #364149;
     line-height: 40px;
     -webkit-box-shadow: none !important;
@@ -99,6 +100,14 @@ body {
     font-size: 14px;
     font-weight: 500;
     text-decoration: none;
+}
+.body-navbar .nav-name {
+    margin: auto 0;
+    cursor: pointer;
+    line-height: 40px;    
+    font-size: 16px;
+    text-transform: lowercase;
+    color: var(--primary-color);
 }
 /* .body-navbar .btn:hover {
     color: #6b808f;
@@ -203,8 +212,8 @@ body {
 }
 
 .blue-line {
-    color: #364149;
-    border-bottom: 2px solid #00f;
+    color: #364149;    
+    border-bottom: 2px solid var(--primary-color);
 }
 
 @media (min-width: 640px) {
