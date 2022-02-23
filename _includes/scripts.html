@@ -131,15 +131,4 @@
             implementFontSize(Number(localStorage.fontSize));
         }
     }
-    // Media query for the sidebar
-    function responsiveSidebar(mediaListener) {
-        if (mediaListener.matches) {
-            document.getElementById("book").classList.remove("with-summary");
-        } else {
-            document.getElementById("book").classList.add("with-summary");
-        }
-    }
-    var mediaListener = window.matchMedia("(max-width: 768px)");
-    responsiveSidebar(mediaListener); // Call listener function at run time
-    mediaListener.addListener(responsiveSidebar); // Attach listener function on state changes
 </script>

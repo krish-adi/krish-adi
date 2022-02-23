@@ -29,10 +29,6 @@ html {
 html {
     font-size: 62.5%;
 }
-.book {
-    position: relative;
-    width: 100%;
-}
 body {
     text-rendering: optimizeLegibility;
     font-smoothing: antialiased;
@@ -43,14 +39,19 @@ body {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
+.book {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
 .book-body {
     position: relative;
     color: #000;
     background: #fff;
-    height: 100%;
+    min-height: calc(100% - 5px);
 }
 .book-body .body-inner {
-    padding-top: 20px;
+    /* padding-top: 20px; */
     margin: auto;
     max-width: calc(var(--page-max-width) + 50px);
 }
@@ -77,6 +78,15 @@ body {
 .display-none {
     display: none;
 }
+.navbar-name {
+    margin: auto auto;
+    padding: 0 20px;
+    line-height: 40px;    
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    color: #6c7578;
+}
 .body-navbar {
     display: flex;
     justify-content: space-between;
@@ -94,20 +104,12 @@ body {
     cursor: pointer;
     margin: 0 8px;
     color: #364149;
-    line-height: 40px;
+    line-height: 30px;
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
     font-size: 14px;
     font-weight: 500;
     text-decoration: none;
-}
-.body-navbar .nav-name {
-    margin: auto 0;
-    cursor: pointer;
-    line-height: 40px;    
-    font-size: 16px;
-    text-transform: lowercase;
-    color: var(--primary-color);
 }
 /* .body-navbar .btn:hover {
     color: #6b808f;
