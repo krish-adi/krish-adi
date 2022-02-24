@@ -3,8 +3,7 @@ layout: default
 ---
 
 <h1 id="posts" class="category">Posts</h3>
-{% assign reversed_posts = site.posts | reverse %} 
-{% for post in reversed_posts %}
+{% for post in site.posts %}
 {% if post.title and post.title != 'index' %}
 <div class="category">
     <a class="category" href="{{ site.baseurl }}{{ post.url }}">{{post.title | escape}} <span style="margin-left: 5px;">&#10132;</span></a>
