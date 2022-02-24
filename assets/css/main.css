@@ -176,6 +176,18 @@ body {
     letter-spacing: 0.4px;
     /* color: #939da3; */
 }
+.book-summary div.header {
+    padding: 25px;
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.4px;    
+}
+.book-summary div.header a.header {
+    cursor: pointer;
+    text-decoration: none;
+    color: #364149 !important;  
+}
 .book-summary ul.summary li.divider {
     height: 1px;
     margin: 7px 0;
@@ -210,7 +222,6 @@ body {
     position: relative;
 }
 .book-summary ul.summary li a svg {
-    /* margin-left: 5px; */
     margin-right: 5px;
     height: 12px;
     width: 12px;
