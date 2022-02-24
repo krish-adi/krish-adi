@@ -94,8 +94,8 @@ body {
     background: 0 0;
 }
 .body-navbar .btn svg {
-    height: 13px;
-    width: 13px;
+    height: 15px;
+    width: 15px;
     fill: #bbbbbb;
 }
 .body-navbar .btn svg:hover {
@@ -256,6 +256,10 @@ body {
     }
     .page-inner {
         padding: var(--page-padding-md);
+    }
+    .body-navbar .btn svg {
+        height: 13px;
+        width: 13px;        
     }
 }
 
