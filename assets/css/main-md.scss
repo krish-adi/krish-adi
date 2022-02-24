@@ -95,8 +95,10 @@ $line-height: 1.5;
         text-decoration: underline;
     }
     img {
-        border: 0;
-        max-width: 100%;
+        border: 0;        
+        max-width: 90%;
+        margin: 0 auto;
+        display: block;
     }
     hr {
         height: 4px;

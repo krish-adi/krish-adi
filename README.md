@@ -35,4 +35,4 @@ Posts are within the folder `_posts`. Use the folder structure based on the cate
 
    ```
    
-> To build the blog and serve it locally, run `bundle exec jekyll serve` .
+> To build the blog and serve it locally, run `bundle exec jekyll serve`.
