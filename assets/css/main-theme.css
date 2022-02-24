@@ -1,29 +1,3 @@
-/* Font theme */
-.book.font-family-serif {
-    /* font-family: Georgia, serif; */
-    font-family: Georgia, serif;
-}
-.book.font-family-sans {
-    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-        Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-}
-.book.font-size-0 .book-body .page-inner section {
-    font-size: 1rem;
-}
-.book.font-size-1 .book-body .page-inner section {
-    font-size: 1.3rem;
-}
-.book.font-size-2 .book-body .page-inner section {
-    font-size: 1.5rem;
-}
-.book.font-size-3 .book-body .page-inner section {
-    font-size: 2rem;
-}
-.book.font-size-4 .book-body .page-inner section {
-    font-size: 3rem;
-}
-
 /* Dark mode theme */
 .dark-mode .dropdown-menu {
     background-color: #2d3143;
