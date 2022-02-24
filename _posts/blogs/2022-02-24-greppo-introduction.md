@@ -76,6 +76,8 @@ You will then see the Uvicorn server running at a specified location. Copy and p
 
 Which is to import the `greppo` package and to add the `base_layer` to the map.
 
+<script src="https://gist.github.com/krish-adi/c261a0f21e33e0df5fb80627df252d66.js"></script>
+
 You need to first `import app` from `greppo` . This `app` object will serve as the interface to to your application frontend and provide the API for 2 way communication between the front and the back-end.
 
 ![](https://miro.medium.com/max/1400/1*TZh-0l2EpyzniAWrvCMF1A.png)
@@ -91,6 +93,8 @@ Using `geopandas` we can import the vector dataset as a `GeoDataFrame`. This can
 
 Here I am importing three different datasets one each having `polygons` (boundaries of the different regions of Italy), `lines` (major highways in Italy) and `points` (major cities of Italy).
 
+<script src="https://gist.github.com/krish-adi/34ee2fe8e60f6b0f51f33609aae283d9.js"></script>
+
 Using the method `app.vector_layer()` as an API to the frontend we can display the vector data. You are required to pass in the `name` and the other parameters are optional. Although, passing in the `color` or `fillColor` to the `style` is a good practise to differentiate and identify each layer. Since the frontend is based on [Leaflet](https://leafletjs.com/), all the styling is accordance to the leaflet’s specification and can be found in the [documentation](https://docs.greppo.io/map-components/vector-layer.html#styling-option-adopted-from-leaflet).
 
 ![](https://miro.medium.com/max/1400/1*fy8xEkHSw1NKGhix7j1nFA.png)
@@ -104,6 +108,8 @@ You can find all the information of the vector_layer and the styling [here](http
 
 For the web-application to be useful, it needs to carry some text to provide some guidance and context to its users. These could be displayed on the sidebar next to the components. Using the method `app.display()` markdown text can be displayed on the web-app. Using the same method, the **title** and **description** of the app can be set.
 
+<script src="https://gist.github.com/krish-adi/07300a5997971d986c34afd014ada139.js"></script>
+
 The `app.display()` takes in two arguments `name` and `value` . While `value` caries the text to be displayed, `name` has to be unique and carries the identifier to the text. If `name=’title’` the value passed is the title of the app and if `name=’description’` the value passed is the description of the app. Without any of the two, the app carries its default title and description. It is encouraged to set the title and description of the app.
 
 ![](https://miro.medium.com/max/1400/1*eKievRGQTB40AVjaD8QGjw.png)
@@ -115,6 +121,8 @@ Result from Step 3. Using the controls marked in red to toggle. Image by Author.
 
 A data app is hardly without display of data as a chart. Greppo also lets you display data as charts. Information of the charts and their usage can be found in the [documentation](https://docs.greppo.io/chart-components/index.html). Here, as an example a bar-chart is presented, `app.bar_chart()`.
 
+<script src="https://gist.github.com/krish-adi/059b33754a70293e54079b78765ad430.js"></script>
+
 The required arguments for the charts are the `name`, `x` and `y` values. A `description` and a `color` could be added to give the app user a better context. The `name` and `description` are displayed along with the chart.
 
 ![](https://miro.medium.com/max/1400/1*UhS3hSF0Q0p6f2LJ4S-mtQ.png)
@@ -125,6 +133,8 @@ Result from Step 4. With the data, display features, charts and control. Image b
 ## Conclusion
 
 Let’s take complete run through what we’ve done here. Our goal was to create a geospatial web-app using Greppo, to display some GIS vector data, and add components to give the user of the app a better context. Here is the complete code for the app:
+
+<script src="https://gist.github.com/krish-adi/dd4ce146785554f6515f49d192e3f2fe.js"></script>
 
 And here the output of the app:
 
