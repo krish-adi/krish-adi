@@ -1,18 +1,5 @@
+{%- include symbols.html -%}
 <script>
-    // Sidebar toggle implementation
-    if (localStorage.sidebar) {
-        if (localStorage.sidebar == "close") {
-            document.getElementById("book").classList.toggle("with-summary");
-        }
-    } else {
-        localStorage.sidebar = "open";
-    }
-    function toggleSidebar() {
-        document.getElementById("book").classList.toggle("with-summary");
-        localStorage.sidebar == "open"
-            ? (localStorage.sidebar = "close")
-            : (localStorage.sidebar = "open");
-    }
     // Light/Dark mode implementation
     if (localStorage.themeMode) {
         if (localStorage.themeMode == "dark") {
@@ -27,93 +14,30 @@
             ? (localStorage.themeMode = "dark")
             : (localStorage.themeMode = "light");
     }
-    // Sans/Serif toggle implementation
-    if (localStorage.fontType) {
-        if (localStorage.fontType == "serif") {
-            document
-                .getElementById("book")
-                .classList.toggle("font-family-serif");
-            document.getElementById("serif-icon").classList.add("display-none");
-            document
-                .getElementById("sans-icon")
-                .classList.remove("display-none");
-        } else {
-            document
-                .getElementById("serif-icon")
-                .classList.remove("display-none");
-            document.getElementById("sans-icon").classList.add("display-none");
+    // Sidebar toggle implementation
+    if (localStorage.sidebar) {
+        if (localStorage.sidebar == "close") {
+            document.getElementById("book").classList.toggle("with-summary");
         }
     } else {
-        localStorage.fontType = "sans";
-        document.getElementById("serif-icon").classList.remove("display-none");
-        document.getElementById("sans-icon").classList.add("display-none");
+        localStorage.sidebar = "open";
     }
-    function toggleFontType() {
-        document.getElementById("book").classList.toggle("font-family-serif");
-        if (localStorage.fontType == "sans") {
-            localStorage.fontType = "serif";
-            document
-                .getElementById("serif-icon")
-                .classList.add("display-none");
-            document.getElementById("sans-icon").classList.remove("display-none");
-        } else {
-            localStorage.fontType = "sans";
-            document.getElementById("serif-icon").classList.remove("display-none");
-            document
-                .getElementById("sans-icon")
-                .classList.add("display-none");
-        }
-    }
-    // Inc/Dec font size implementation
-    if (localStorage.fontSize) {
-        implementFontSize(Number(localStorage.fontSize));
-    } else {
-        localStorage.fontSize = "2";
-        implementFontSize(Number(localStorage.fontSize));
-    }
-    var minFontSize = 0;
-    var maxFontSize = 4;
-    function implementFontSize(size) {
-        var element = document.getElementById("book");
-        element.classList.remove(
-            "font-size-0",
-            "font-size-1",
-            "font-size-2",
-            "font-size-3",
-            "font-size-4"
-        );
-        switch (size) {
-            case 0:
-                element.classList.add("font-size-0");
-                break;
-            case 1:
-                element.classList.add("font-size-1");
-                break;
-            case 2:
-                element.classList.add("font-size-2");
-                break;
-            case 3:
-                element.classList.add("font-size-3");
-                break;
-            case 4:
-                element.classList.add("font-size-4");
-                break;
-        }
-    }
-    function incFontSize() {
-        console.log("inc");
-        if (localStorage.fontSize < maxFontSize) {
-            localStorage.fontSize = Number(localStorage.fontSize) + 1;
-            implementFontSize(Number(localStorage.fontSize));
-        }
-    }
-    function decFontSize() {
-        console.log("dec");
-        if (localStorage.fontSize > minFontSize) {
-            localStorage.fontSize = Number(localStorage.fontSize) - 1;
-            implementFontSize(Number(localStorage.fontSize));
-        }
-    }
+    // function removeSidebar() {
+    //     console.log(document.getElementById("book").classList.contains("with-summary"))
+    //     if (screen.width <= 640 && ) {
+    //         // document.getElementById("book").classList.remove("with-summary");
+    //         // localStorage.sidebar == "open"
+    //         //     ? (localStorage.sidebar = "close")
+    //         //     : (localStorage.sidebar = "open");
+    //         console.log(document.getElementById("book").classList.contains("with-summary"))
+    //     }
+    // }
+    function toggleSidebar() {
+        document.getElementById("book").classList.toggle("with-summary");
+        localStorage.sidebar == "open"
+            ? (localStorage.sidebar = "close")
+            : (localStorage.sidebar = "open");
+    }    
     // Media query for the sidebar
     function responsiveSidebar(mediaListener) {
         if (mediaListener.matches) {

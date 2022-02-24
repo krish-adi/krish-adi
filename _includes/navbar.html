@@ -1,0 +1,36 @@
+<div class="body-navbar">
+    <div class="navbar-left">
+        <a class="btn" onclick="toggleSidebar()">
+            <svg>
+                <use xlink:href="#hamburger" />
+            </svg>
+        </a>
+        <a class="btn" onclick="toggleDarkmode()">
+            <svg>
+                <use xlink:href="#colormode" />
+            </svg>
+        </a>
+    </div>
+    <div class="navbar-right">  
+        {%- assign social = site.social_links -%} 
+        {% if social %} {% if social.github %}              
+        <a class="btn" href="https://github.com/{{ social.github }}">
+            <svg>
+                <use xlink:href="#github" />
+            </svg>
+        </a>
+        {% endif %} {% if social.twitter %}
+        <a class="btn" href="https://twitter.com/{{ social.twitter }}">
+            <svg>
+                <use xlink:href="#twitter" />
+            </svg>
+        </a>
+        {% endif %} {% if social.linkedin %}
+        <a class="btn" href="https://www.linkedin.com/in/{{ social.linkedin }}">
+            <svg>
+                <use xlink:href="#linkedin" />
+            </svg>
+        </a>        
+        {% endif %} {% endif %}
+    </div>
+</div>
