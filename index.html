@@ -1,12 +1,15 @@
 ---
 layout: default
 ---
-<h3 id="posts">Posts</h3>
+
+<h1 id="posts" class="category">Posts</h3>
 {% assign reversed_posts = site.posts | reverse %} 
 {% for post in reversed_posts %}
 {% if post.title and post.title != 'index' %}
-<li class="chapter">
-    <a href="{{site.baseurl}}{{post.url}}"> {{ post.title | escape }} </a>
-</li>
+<div class="category">
+    <a class="category" href="{{ site.baseurl }}{{ post.url }}">{{post.title | escape}} <span style="margin-left: 5px;">&#10132;</span></a>
+    <p style="margin: 2px 0 7px 0 !important;"> {{post.date | date_to_string }}</p>
+    <p> {{post.description}}</p>
+</div>    
 {% endif %} 
 {% endfor %}

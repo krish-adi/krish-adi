@@ -1,10 +1,15 @@
 ---
 layout: default 
 ---
+
 {% assign cat = page.category %}
-<h3 id="category" style="text-transform: capitalize;">{{ page.category }}</h3>
+<h1 id="category" class="category">{{ page.category }}</h3>
 {% for post in site.categories[cat] %}
 {%- if post.title != 'index' -%}
-    <li><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></li>
+<div class="category">
+    <a class="category" href="{{ site.baseurl }}{{ post.url }}">{{post.title | escape}} <span style="margin-left: 5px;">&#10132;</span></a>
+    <p style="margin: 2px 0 7px 0 !important;"> {{post.date | date_to_string }}</p>
+    <p> {{post.description}}</p>
+</div>    
 {%- endif -%}
 {% endfor %}
