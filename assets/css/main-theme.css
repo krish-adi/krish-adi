@@ -59,11 +59,11 @@
 .book.dark-mode .book-body .page-wrapper .page-inner section.normal .highlight {
     background-color: #282a39;
 }
-.book.dark-mode .book-body .page-wrapper .page-inner section.normal table th,
-.book.dark-mode .book-body .page-wrapper .page-inner section.normal table td {
+.book.dark-mode .book-body .page-wrapper .page-inner section.normal table th :not(.gist),
+.book.dark-mode .book-body .page-wrapper .page-inner section.normal table td :not(.gist){
     border-color: #3b3f54;
 }
-.book.dark-mode .book-body .page-wrapper .page-inner section.normal table tr {
+.book.dark-mode .book-body .page-wrapper .page-inner section.normal table tr :not(.gist){
     color: #b6c2d2;
     background-color: #2d3143;
     border-color: #3b3f54;
@@ -103,6 +103,9 @@
     color: #bcc1d2;
     background: #2d3143;
     border-right: none;
+}
+.book.dark-mode .book-summary div.header a.header{
+    color: #c1c6d7;    
 }
 .book.dark-mode .book-summary .book-search {
     background: transparent;

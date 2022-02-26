@@ -1,7 +1,6 @@
 ---
 ---
 
-
 /* Code font */
 $font-monospace: Menlo, SFMono-Regular, Consolas, "Roboto Mono", monospace;
 /* Font weights */
@@ -30,7 +29,7 @@ $line-height: 1.5;
     word-wrap: break-word;
     overflow: hidden;
     color: #333;
-    line-height: $line-height !important;    
+    line-height: $line-height !important;
     font-weight: $normal-weight !important;
     text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -95,19 +94,19 @@ $line-height: 1.5;
         text-decoration: underline;
     }
     img {
-        border: 0;        
+        border: 0;
         max-width: 90%;
         margin: 0 auto;
         display: block;
     }
     hr {
         height: 2px;
-        width: 80%;
+        width: 50%;
         padding: 0;
         margin: 1.7em auto;
         overflow: hidden;
-        background-color: #e7e7e7;
-        border: none;
+        background-color: #ccc;
+        border: none;        
     }
     hr:after,
     hr:before {

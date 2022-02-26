@@ -186,7 +186,7 @@ body {
 .book-summary div.header a.header {
     cursor: pointer;
     text-decoration: none;
-    color: #364149 !important;  
+    color: #364149;  
 }
 .book-summary ul.summary li.divider {
     height: 1px;
@@ -297,3 +297,6 @@ a.category {
     text-transform: capitalize;
 }
 
+.gist table tr, td {
+    border: none !important;
+}

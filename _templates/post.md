@@ -4,7 +4,7 @@ description: post <% tp.file.title %> description
 date: <% tp.file.creation_date("YYYY-MM-DD") %>
 modified: <% tp.file.last_modified_date("YYYY-MM-DD") %>
 category: zettelkasten
-layout: default
+layout: post
 ---
 
 # <% tp.file.title %>
