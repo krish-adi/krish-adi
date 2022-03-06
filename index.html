@@ -2,13 +2,63 @@
 layout: default
 ---
 
-<h1 id="posts" class="category">Posts</h3>
-{% for post in site.posts %}
-{% if post.title and post.title != 'index' %}
+<h1 class="category">Engineer, Scientist, Developer & Climber</h3>
+
 <div class="category">
-    <a class="category" href="{{ site.baseurl }}{{ post.url }}">{{post.title | escape}} <span style="margin-left: 5px;">&#10132;</span></a>
-    <p style="margin: 2px 0 7px 0 !important;"> {{post.date | date_to_string }}</p>
-    <p> {{post.description}}</p>
+    <a class="category" href="{{ site.baseurl }}/blogs"> Blogs </a>    
+    <p> Thoughts, projects and some random stuff. </p>
 </div>    
-{% endif %} 
-{% endfor %}
+
+<div class="category">
+    <a class="category" href="{{ site.baseurl }}/zettelkasten"> Zettelkasten </a>    
+    <p> Personal knowledge collection on science, programming, climbing. </p>
+</div>    
+
+<div class="category">
+    <h3 class="category"> Find me online here </h3>
+    <p>
+        <a class="category" style="margin-right: 1.5rem;" href="https://github.com/krish-adi"> GitHub </a>     
+        <a class="category" style="margin-right: 1.5rem;" href="https://www.linkedin.com/in/adithyakrishnan/"> LinkedIn </a>    
+        <a class="category" style="margin-right: 1.5rem;" href="https://twitter.com/krish_adi_"> Twitter </a>    
+    </p>    
+    
+</div>    
+
+<hr>
+
+<h1 id="posts" class="category">Projects</h3>
+
+<div class="category">
+    <a class="category" href="https://greppo.io/"> Greppo </a>    
+    <p> Build and deploy geospatial applications quick and easy. </p>
+</div>    
+
+<div class="category">
+    <a class="category" href="{{ site.baseurl }}/dshit"> D-SHIT </a>    
+    <p> My PhD thesis: Domestic Slurry Hydraulics in Transport. </p>
+</div>    
+
+<div class="category">
+    <a class="category" href="https://github.com/krish-adi/barfi"> Barfi </a>    
+    <p> Python Flow Based Programming environment that provides a graphical programming environment. </p>
+</div>    
+
+<div class="category">
+    <a class="category" href="{{ site.baseurl }}/randp"> Research and Publications </a>    
+    <p> My research, publications. </p>
+</div>    
+
+<hr>
+
+<h1 id="posts" class="category">About me</h3>
+
+<div class="category">
+    <a class="category" href="{{ site.baseurl }}/cv"> My CV </a>    
+    <p> My experience, education, activities and skills. </p>
+</div>    
+
+<!-- <div class="category">
+    <a class="category" href="{{ site.baseurl }}{{ post.url }}"> Intro </a>    
+    <p> A brief introduction about myself. My story uptil now. </p>
+</div>     -->
+

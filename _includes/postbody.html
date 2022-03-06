@@ -4,31 +4,7 @@
         <div class="page-inner">
             <section class="normal markdown-section">{{ content }}</section>
 
-            <table
-                style="
-                    margin-top: 4em;
-                    margin-bottom: 2em;
-                    border-collapse: separate;
-                    border-spacing: 0 0.8em;
-                "
-            >
-                <colgroup>
-                    <col span="1" style="width: 8em" />
-                    <col span="1"  />
-                </colgroup>
-                <tr>
-                    <td>Last modified</td>
-                    <td style="padding: 0.25em 0.5em; background-color: #eeeeee; border-radius: 5em;">
-                        {{ page.modified | date_to_string }}
-                    </td>
-                </tr>
-                <tr>
-                    <td>First published</td>
-                    <td style="padding: 0.25em 0.5em; background-color: #eeeeee; border-radius: 5em;">
-                        {{ page.date | date_to_string}}
-                    </td>
-                </tr>
-            </table>
+            <p style="margin-top: 5rem; font-size: small; text-align: right;"> <span>Last updated</span> <span style="font-weight: 300;">{{ page.modified | date_to_string }}</span></p>            
         </div>
     </div>
 </div>
