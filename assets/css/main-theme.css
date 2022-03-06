@@ -114,10 +114,6 @@
 .book.dark-mode .book-summary .book-search input:focus {
     border: 1px solid transparent;
 }
-.book.dark-mode .book-summary ul.summary li.divider {
-    /* background: #272a3a; */
-    box-shadow: none;
-}
 .book.dark-mode .book-summary ul.summary li i.fa-check {
     color: #33cc33;
 }
@@ -128,21 +124,16 @@
 .book.dark-mode .book-summary ul.summary li span {
     color: #c1c6d7;
     background: transparent;
-    font-weight: 600;
 }
 .book.dark-mode .book-summary ul.summary li a svg {
-    margin-left: 5px;
-    height: 12px;
     fill: #c1c6d7;
 }
 .book.dark-mode .book-summary ul.summary li.active > a,
 .book.dark-mode .book-summary ul.summary li a:hover {
     color: #f4f4f5;
     background: #252737;
-    font-weight: 600;
 }
 .book.dark-mode .body-navbar .btn svg {
-    height: 14px;
     fill: #666666;
 }
 .book.dark-mode .body-navbar .btn svg:hover {

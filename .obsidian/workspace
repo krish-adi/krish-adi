@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bfcd5707c9afd44d",
+        "id": "e9513a2de2c28741",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "_drafts/zettelkasten/2022-02-25-web-app-checklist.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/zettelkasten/2022-02-25-web-app-checklist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +82,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "bfcd5707c9afd44d",
+  "active": "e9513a2de2c28741",
   "lastOpenFiles": [
-    "_drafts/zettelkasten/2022-02-25-web-app-checklist.md",
+    "_drafts/zettelkasten/2022-02-25-tech-startup-checklist.md",
+    "_drafts/zettelkasten/2021-12-09-blogs-to-follow.md",
+    "_drafts/zettelkasten/2022-03-01-smart-phones.md",
     "_posts/zettelkasten/2022-02-25-Untitled.md",
     "_templates/post.md",
     "_drafts/essay/essay-vs-blog.md",
     "_drafts/essay/2022-01-27-ppp.md",
     "_posts/blogs/2022-02-24-greppo-introduction.md",
     "_posts/blogs/0000-01-01-index.md",
-    "_posts/zettelkasten/0000-01-01-index.md",
-    "_posts/zettelkasten/2021-11-24-python.md",
-    "_drafts/zettelkasten/2021-12-09-blogs-to-follow.md"
+    "_posts/zettelkasten/0000-01-01-index.md"
   ]
 }
