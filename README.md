@@ -42,5 +42,4 @@ Posts are within the folder `_posts`. Use the folder structure based on the cate
 - [ ] Add search to the site.
 - [ ] Add Adithya Krishnan and C-Circle and year to the bottom. 
 - [ ] Next and previous article in the category at the bottom of the page.
-- [ ] Add CV
-- [ ] Add About me. 
+- [ ] Add google analytics.
