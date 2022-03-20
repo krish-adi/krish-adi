@@ -9,7 +9,7 @@ layout: post
 
 # Build a geospatial dashboard in Python using Greppo
 
-**Lack of frontend, backend and web-dev experience can be limiting in making a web-app in Python. Not anymore…**
+#### Lack of frontend, backend and web-dev experience can be limiting in making a web-app in Python. Not anymore…
 
 ![Demo GIF](https://miro.medium.com/max/1400/1*roDG3MBZhff1om23mZmU1w.gif)
 
@@ -148,5 +148,3 @@ So, there we have it. A complete web-app built using Greppo, in under 5 mins.
 All the files for this demo can be found here: [https://github.com/greppo-io/greppo-demo/tree/main/vector-demo](https://github.com/greppo-io/greppo-demo/tree/main/vector-demo)
 
 Originally posted in [Towards Data Science](https://towardsdatascience.com/build-a-geospatial-dashboard-in-python-using-greppo-60aff44ba6c9).
-
-Reviewed by Sarma Tangirala.

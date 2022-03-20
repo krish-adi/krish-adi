@@ -7,23 +7,27 @@
         "id": "e9513a2de2c28741",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "_posts/blogs/2022-03-20-gee-greppo.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "6d586197c9dfb6ac",
+    "id": "a298674f8946fcdc",
     "type": "split",
     "children": [
       {
-        "id": "3c9acff1e3bfb7e4",
+        "id": "c928b12d191f5d57",
         "type": "tabs",
         "children": [
           {
-            "id": "a09874c818f5e18d",
+            "id": "7e5425f92ef24d56",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -31,7 +35,7 @@
             }
           },
           {
-            "id": "8add8ffc13aff4d3",
+            "id": "63b80900a91d0bc7",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -52,19 +56,20 @@
     "width": 300
   },
   "right": {
-    "id": "8381dfcfea76e4f8",
+    "id": "70c3e50ebc06c5dd",
     "type": "split",
     "children": [
       {
-        "id": "27c5dfc749357545",
+        "id": "7aa182aef8c635de",
         "type": "tabs",
         "children": [
           {
-            "id": "1fd096926234c8fb",
+            "id": "dd8c661b5f8f9549",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/blogs/2022-03-20-gee-greppo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,15 +89,15 @@
   },
   "active": "e9513a2de2c28741",
   "lastOpenFiles": [
-    "_drafts/zettelkasten/2022-02-25-tech-startup-checklist.md",
-    "_drafts/zettelkasten/2021-12-09-blogs-to-follow.md",
-    "_drafts/zettelkasten/2022-03-01-smart-phones.md",
-    "_posts/zettelkasten/2022-02-25-Untitled.md",
-    "_templates/post.md",
-    "_drafts/essay/essay-vs-blog.md",
-    "_drafts/essay/2022-01-27-ppp.md",
+    "_posts/blogs/2022-03-20-gee-greppo.md",
+    "_drafts/blog/2022-02-22-greppo-dashboard.md",
     "_posts/blogs/2022-02-24-greppo-introduction.md",
     "_posts/blogs/0000-01-01-index.md",
-    "_posts/zettelkasten/0000-01-01-index.md"
+    "_drafts/zettelkasten/2021-12-09-blogs-to-follow.md",
+    "dshit.md",
+    "_drafts/zettelkasten/2022-02-25-tech-startup-checklist.md",
+    "_drafts/zettelkasten/2022-03-01-smart-phones.md",
+    "_posts/zettelkasten/2022-02-25-Untitled.md",
+    "_templates/post.md"
   ]
 }
