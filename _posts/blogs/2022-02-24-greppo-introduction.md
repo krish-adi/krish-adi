@@ -78,6 +78,8 @@ Which is to import the `greppo` package and to add the `base_layer` to the map.
 
 <script src="https://gist.github.com/krish-adi/c261a0f21e33e0df5fb80627df252d66.js"></script>
 
+{% gist c261a0f21e33e0df5fb80627df252d66 %}
+
 You need to first `import app` from `greppo` . This `app` object will serve as the interface to to your application frontend and provide the API for 2 way communication between the front and the back-end.
 
 ![](https://miro.medium.com/max/1400/1*TZh-0l2EpyzniAWrvCMF1A.png)

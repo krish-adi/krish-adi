@@ -38,7 +38,7 @@
     background: var(--md-code-bg-drk);
     border-color: var(--md-code-bg-drk);
 }
-.book.dark-mode .book-body .page-wrapper .page-inner section.normal .highlight {
+.book.dark-mode .book-body .page-wrapper .page-inner section.normal .highlight :not(.gist) {
     background-color: var(--md-code-bg-drk);
 }
 .book.dark-mode .book-body .page-wrapper .page-inner section.normal table th :not(.gist),
@@ -50,7 +50,7 @@
     background-color: var(--md-table-bg-drk);
     border-color: var(--md-table-border-tr-drk);
 }
-.book.dark-mode .book-body .page-wrapper .page-inner section.normal table tr:nth-child(2n) {
+.book.dark-mode .book-body .page-wrapper .page-inner section.normal table tr:nth-child(2n) :not(.gist) {
     background-color: var(--md-table-bg-2n-drk);
 }
 .book.dark-mode .body-navbar {

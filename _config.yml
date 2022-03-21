@@ -36,6 +36,7 @@ plugins:
     - jekyll-seo-tag
     - jekyll-feed
     - jekyll-coffeescript
+    - jekyll-gist
 # To enable Google Analytics, fill in the following:
 # Google Analytics will only appear in production, i.e., `JEKYLL_ENV=production`
 

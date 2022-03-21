@@ -316,3 +316,11 @@ a.category {
 .gist table tr, td {
     border: none !important;
 }
+
+.gist .gist-data table tr, td {
+    background-color: var(--color-canvas-default) !important;
+}
+
+.gist .gist-data table td span {
+    background-color: var(--color-canvas-default) !important;
+}
