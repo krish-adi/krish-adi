@@ -48,7 +48,7 @@ For any issues reach out to us on [GitHub](https://github.com/greppo-io/greppo) 
 
 To be able to use Google Earth Engine, you need to create a service account and get an access-key-file associated with that account. This will only take a few minutes, but make sure to follow the instructions properly. Follow the instructions [here](https://developers.google.com/earth-engine/guides/service_account?hl=en). To use the service account and the key-file, use the following code to initialise.
 
-<script src="https://gist.github.com/krish-adi/b75ef65c43ea13eacac41fe660c54b80.js"></script>
+{% gist b75ef65c43ea13eacac41fe660c54b80 %}
 
 > Note: Make sure to keep the key-file.json in another location, preferably safely in the root folder of your computer and not commit it into a public repository.
 
@@ -104,7 +104,7 @@ After understanding the client-server and lazy computational model of GEE, we ca
 
 It is best explained with an example. Let’s start with the scaffolding of the app. You would first have to import the `app` object from `Greppo` as this will be your entry point to communicate with the frontend. You would then have to `import ee`, authenticate yourself to Earth Engine and initialise your session with the credentials from your service account mentioned above. 
 
-<script src="https://gist.github.com/krish-adi/02ba22e5623d3b40211f74a51a1b9a4b.js"></script>
+{% gist 02ba22e5623d3b40211f74a51a1b9a4b %}
 
 Next, let’s start with selecting the dataset from the catalog. Here, we are using the `USGS/SRTMGL1_003` to get the Digital Elevation map. We need to first get a land mask for all the values in the DEM image data greater than 0, for which we use `dem.get(0)`. Next, we need to apply the mask on our DEM to only visualise the land, for which we use `dem.updateMask(dem.gt(0))` and we assign the result as our `ee_dem` to be visualised. Since all the data is stored as int16 (matrix of values between 32767 and -32768), we would have to visualise the matrix using a palette. 
 
@@ -135,7 +135,7 @@ Let’s start with using the `app.display` (`name` is the unique identifier and 
 
 Using the latitude and longitude of the point, we can now create an earth engine Geometry object for the point with the visualisation parameters `color: ‘red’`. We can now display this using the `app.ee_layer()` as mentioned above. 
 
-<script src="https://gist.github.com/krish-adi/a73e7f3496e3c4bbfd350f1be59a8b51.js"></script>
+{% gist a73e7f3496e3c4bbfd350f1be59a8b51 %}
 
 To find the elevation of the point, we make use of the earth engine method `sample` on the DEM object. We sample the point in the DEM to get the properties from the DEM. We take the first point from the output and use the `.get` method to find the value associated with the property `elevation`. And, finally we compose a multiline string to display the output. 
 
