@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e9513a2de2c28741",
+        "id": "1a13cd94a495641c",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "_posts/blogs/2022-03-20-gee-greppo.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/blogs/2022-03-20-gee-greppo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +82,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e9513a2de2c28741",
+  "active": "1a13cd94a495641c",
   "lastOpenFiles": [
     "_posts/blogs/2022-03-20-gee-greppo.md",
     "_drafts/blog/2022-02-22-greppo-dashboard.md",
