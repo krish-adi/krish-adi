@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "1a13cd94a495641c",
+        "id": "24533509fcfd6a3c",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "_posts/zettelkasten/2022-04-18-machine-learning.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/zettelkasten/2022-04-18-machine-learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1a13cd94a495641c",
+  "active": "24533509fcfd6a3c",
   "lastOpenFiles": [
-    "_posts/blogs/2022-03-20-gee-greppo.md",
-    "_drafts/blog/2022-02-22-greppo-dashboard.md",
-    "_posts/blogs/2022-02-24-greppo-introduction.md",
-    "_posts/blogs/0000-01-01-index.md",
-    "_drafts/zettelkasten/2021-12-09-blogs-to-follow.md",
-    "dshit.md",
-    "_drafts/zettelkasten/2022-02-25-tech-startup-checklist.md",
-    "_drafts/zettelkasten/2022-03-01-smart-phones.md",
-    "_posts/zettelkasten/2022-02-25-Untitled.md",
-    "_templates/post.md"
+    "_posts/zettelkasten/2022-04-18-machine-learning.md",
+    "assets/media/decision-tree.png",
+    "_posts/zettelkasten/2022-04-19-pandas.md",
+    "assets/media/under-over-fit.png.png",
+    "_templates/post.md",
+    "_templates/index.md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "_drafts/zettelkasten/2022-04-03-diet-climbing.md",
+    "_drafts/zettelkasten/2022-04-19-ai-ml.md"
   ]
 }
