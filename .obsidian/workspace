@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/zettelkasten/2022-04-18-machine-learning.md",
+            "file": "README.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/zettelkasten/2022-04-18-machine-learning.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "24533509fcfd6a3c",
   "lastOpenFiles": [
+    "README.md",
     "_posts/zettelkasten/2022-04-18-machine-learning.md",
     "assets/media/decision-tree.png",
     "_posts/zettelkasten/2022-04-19-pandas.md",
@@ -97,7 +98,6 @@
     "_templates/index.md",
     "Untitled.md",
     "Untitled 1.md",
-    "_drafts/zettelkasten/2022-04-03-diet-climbing.md",
-    "_drafts/zettelkasten/2022-04-19-ai-ml.md"
+    "_drafts/zettelkasten/2022-04-03-diet-climbing.md"
   ]
 }

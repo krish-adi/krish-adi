@@ -8,14 +8,6 @@ The theme [jekyll-book](https://github.com/krish-adi/jekyll-book) is used here.
 
 I have set this up to se with [obsidian](obsidian.md). It uses the templater community plugin, and the templates are located inside `_templates`.
 
-## Working on posts
-
-- markdown cheatsheet
-- Python setup and environments
-- vue-js build commands
-- ruby setup and environments
-- greppo demo app
-
 ## Usage
 
 Posts are within the folder `_posts`. Use the folder structure based on the category of the post. The mandatory index file `0000-01-01-index.md` inside the category folder within posts.
@@ -37,9 +29,3 @@ Posts are within the folder `_posts`. Use the folder structure based on the cate
    
 > To build the blog and serve it locally, run `bundle exec jekyll serve`.
 
-## TODO
-
-- [ ] Add search to the site.
-- [ ] Add Adithya Krishnan and C-Circle and year to the bottom. 
-- [ ] Next and previous article in the category at the bottom of the page.
-- [ ] Add google analytics.
