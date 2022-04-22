@@ -37,7 +37,7 @@
         localStorage.sidebar == "open"
             ? (localStorage.sidebar = "close")
             : (localStorage.sidebar = "open");
-    }    
+    }
     // Media query for the sidebar
     function responsiveSidebar(mediaListener) {
         if (mediaListener.matches) {
@@ -49,4 +49,19 @@
     var mediaListener = window.matchMedia("(max-width: 768px)");
     responsiveSidebar(mediaListener); // Call listener function at run time
     mediaListener.addListener(responsiveSidebar); // Attach listener function on state changes
+
+    var tables = document.getElementsByTagName("table");
+    for (let table of tables) {
+        if (table.classList.contains("dataframe")) {
+            for (var i = 1, row; (row = table.rows[i]); i++) {
+                for (var j = 0, col; (col = row.cells[j]); j++) {
+                    var elementText = col.textContent;
+                    if (elementText.length >= 25) {
+                        console.log(elementText);
+                        col.textContent = elementText.slice(0, 20) + "...";
+                    }
+                }
+            }
+        }
+    }
 </script>
