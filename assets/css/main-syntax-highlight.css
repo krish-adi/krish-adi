@@ -5,13 +5,13 @@
  .highlight .hll { background-color: #404040;color: #d0d0d0; }
  .highlight .c { color: #999999; font-style: italic } /* Comment */
  .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
- .highlight .g { color: #d0d0d0 } /* Generic */
+ .highlight .g { color: #555555 } /* Generic */
  .highlight .k { color: #6ab825; font-weight: bold } /* Keyword */
- .highlight .l { color: #d0d0d0 } /* Literal */
- .highlight .n { color: #d0d0d0 } /* Name */
- .highlight .o { color: #d0d0d0 } /* Operator */
- .highlight .x { color: #d0d0d0 } /* Other */
- .highlight .p { color: #d0d0d0 } /* Punctuation */
+ .highlight .l { color: #555555 } /* Literal */
+ .highlight .n { color: #555555 } /* Name */
+ .highlight .o { color: #555555 } /* Operator */
+ .highlight .x { color: #555555 } /* Other */
+ .highlight .p { color: #555555 } /* Punctuation */
  .highlight .cm { color: #999999; font-style: italic } /* Comment.Multiline */
  .highlight .cp { color: #cd2828; font-weight: bold } /* Comment.Preproc */
  .highlight .c1 { color: #999999; font-style: italic } /* Comment.Single */
