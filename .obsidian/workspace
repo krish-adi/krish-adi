@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_drafts/blog/2022-05-10-recsys.md",
+            "file": "_posts/zettelkasten/2022-04-19-pandas.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_drafts/blog/2022-05-10-recsys.md",
+                "file": "_posts/zettelkasten/2022-04-19-pandas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "1f924143b40a70d9",
   "lastOpenFiles": [
+    "_posts/zettelkasten/2022-04-19-pandas.md",
+    "_posts/zettelkasten/2022-04-21-deep-learning.md",
+    "_posts/blogs/2022-02-24-greppo-introduction.md",
     "_drafts/blog/2022-05-10-recsys.md",
     "_drafts/zettelkasten/2022-04-27-reactjs.md",
     "_drafts/zettelkasten/2022-05-02-react-native.md",
     "_drafts/zettelkasten/2022-05-15-react-native.md",
     "_drafts/zettelkasten/2022-02-25-tech-startup-checklist.md",
     "_drafts/zettelkasten/2022-03-01-smart-phones.md",
-    "_drafts/zettelkasten/2022-04-19-fast-api.md",
-    "_drafts/zettelkasten/2022-04-26-generative-models.md",
-    "_drafts/zettelkasten/2022-04-27-nextJS.md",
-    "_drafts/zettelkasten/2022-05-05-cookie.md"
+    "_drafts/zettelkasten/2022-04-19-fast-api.md"
   ]
 }
